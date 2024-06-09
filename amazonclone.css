@@ -1,0 +1,600 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* HEADER-PART */
+ /* main header */
+.navbar{
+    height:60px;
+    width: 100%;
+    background-color:#000000;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* amazon image start */
+.amazonimg{
+    top:2px;
+    justify-content: center;
+    height: 55px;
+    width: 100px;
+    background-image: url("Amazon-Logo-31\ \(3\).jpg");
+    background-size:cover;
+    border: 2px solid transparent;
+
+    /* margin-right: 100px; */
+    /* margin-left: 20px; */
+
+}
+.amazonimg:hover{
+border: 2px solid white;
+
+}
+.amazonlogo{
+    height: 90px;
+    width: 100%;
+   background-color: rgb(35, 47, 62);
+   display: flex;
+   justify-content: center;
+   text-align: center;
+
+} 
+
+ .amazonimage{
+    height: 70px;
+    width: 120px;
+    background-image: url("amazon-logo-1024x6831.png");
+    background-size: cover;
+    background-color: rgb(35, 47, 62);
+    
+   
+   
+}
+
+
+/* amazon image over */
+
+/* locationbar start */
+
+ .locationbar{
+
+    color: white;
+    position: relative;
+    padding-top:3px;
+    top:2px;
+    height: 51px;
+    width: 70px;
+    padding-left: 3px;
+    
+ }
+
+ .locationbar:hover{
+   border: 2px solid white;
+ }
+ 
+.locationbar .a1{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+.deliver-to{
+
+    color: rgb(186, 180, 180);
+    position: relative;
+    justify-content: center;
+    top: 10px; 
+    font-size: small;
+    font-weight:500;
+    display: flex;
+    padding-left: 8px;
+
+}
+
+.location{
+
+    display: flex;
+    position:relative;
+    justify-content: center;
+    top:10px;
+    left:-15px;
+    padding-left: 8px;
+
+   
+}
+
+
+/* location over */
+
+/* searching bar start*/
+
+.list{
+    display: flex;
+    position: relative;
+    top:15px;
+}
+.list select:hover{
+    background-color:#cac9c9;
+}
+.list select{
+
+    height: 33px;
+    width: 45px;
+    border-radius: 2px 0px 0px 2px;
+    background-color:#eeecec;
+    color:#0f1111;
+    border:#fbf4f4;
+
+
+}
+
+.searchbar{
+
+    display: flex;
+    
+}
+.searchbar input{
+
+    height: 33px;
+    width: 500px;
+    border: #fbf4f4;
+    padding-left: 1px;
+
+}
+.searchbar input:hover{
+     
+    background-color: #e4dede;
+}
+
+
+.searchbar input::placeholder{
+    font-size: 14px;
+    color:rgb(107, 96, 96)
+    
+}
+.searchbar input:hover::placeholder{
+    color: black;
+}
+.searchicon{
+
+    background-color: rgb(242, 176, 22);
+    height: 23px;
+    width: 34px;
+    text-align: center;
+    margin-top:0px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    border: transparent;
+    border-radius: 0px 2px 2px 0px;
+    /* margin-left: 10px; */
+
+}
+
+.searchicon i{  
+    font-size:large; 
+}
+.searchicon:hover{  
+
+    background-color:rgb(211, 142, 14) ;
+}
+/* searching bar over */
+
+/* hellobox */
+.ac-and-list{
+    height: 36px;
+    width: 100px;
+    font-weight: 600;
+    /* border: 2px solid white; */
+    color:white;
+    padding-top: 18px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding-left:8px;
+
+    
+}
+.ac-and-list:hover{
+    border: 2px solid white;
+}
+.ac-and-list a{
+    text-decoration: none;
+    color: white;
+}
+
+/* hellobox over */
+
+/* accountbox  */
+
+.account{ 
+
+    position: relative;
+    color: white;
+    /* top:30px; */
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* accountbox over */
+
+/* Returns and orders */
+
+.Returns-and-orders{
+   
+    color: white;
+     display: flex;
+    font-size:12px;
+    font-weight: 600;
+    height: 37px;
+    width: 65px;
+    padding-top:18px; 
+    padding-left: 6px;
+}
+.Returns-and-orders:hover{
+    border: 2px solid white;
+
+}
+.Returns-and-orders a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+/* returns and orders over */
+
+/* cart */
+
+.cart{
+    color:white;
+    font-size: small;
+    position: relative;
+    padding-left: 10px;
+    padding-top: 15px;
+    height: 40px;
+    width: 80px;
+    
+}
+.cart:hover{
+   border: 2px solid white;
+   
+    
+}
+.cart a{
+    text-decoration: none;
+    color: white; 
+ }
+.cart i{
+    
+    font-size:30px;
+    top:10px;
+}
+
+/* cart over */
+
+ /* main header over */
+
+ .navbar2{
+    position: relative;
+    height: 35px;
+    background-color: rgb(5, 47, 67);
+    display: flex;
+    text-align: center;
+    
+    /* justify-content: space-evenly; */
+ }
+
+ .bars{
+
+    position: relative;
+    top:8px;
+    left:10px;
+    color:white;
+    margin-left: 40px;
+    
+ }
+ .bars:hover{
+    color:rgb(187, 181, 181);
+
+ }
+ 
+
+ .menu{
+    position: relative;
+    display: flex;
+    color: white;
+    text-align: center;
+    top:10px;
+    font-size: small;
+    font-weight:normal;
+ }
+
+ .todaysdeal{
+    margin-left:60px;
+
+ }
+ .todaysdeal a{
+    text-decoration: none;
+    color: white;
+ }
+ .todaysdeal a:hover{
+    text-decoration: underline;
+ }
+ .customerservice{
+    margin-left: 12px; 
+ }
+ .customerservice a{
+    text-decoration: none;
+    color: white;
+ }
+ .customerservice:hover{
+    text-decoration: underline;
+ }
+ .registry{
+
+    margin-left: 12px;
+
+ }
+ .registry a{
+    text-decoration: none;
+    color: white;
+ }
+ .registry:hover{
+    text-decoration: underline;
+
+ }
+ .giftcard{
+
+    margin-left: 12px;
+
+ }
+ .giftcard a{
+    text-decoration: none;
+    color: white;
+ }
+ .giftcard:hover{
+
+ text-decoration: underline;
+
+ }
+ .sell{
+
+    margin-left: 12px;
+
+ }
+ .sell a{
+    text-decoration: none;
+    color: white;
+ }
+ .sell:hover{
+    text-decoration: underline;
+
+ }
+
+ .shopdeals{
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    left: 750px;
+    top:10px;
+    font-size: small ;
+    font-weight: bold;
+ }
+ .shopdeals a{
+    color: white;
+    text-decoration: none;
+ }
+ .shopdeals a:hover{
+   
+    text-decoration:underline;
+ }
+ .shopdeals:hover{
+    color:rgb(187, 181, 181);
+
+ }
+ /* HEADER-PART OVER */
+ /* image row start */
+
+.imagediv{
+
+    height: 250px;
+    background-size: cover;
+    background-image: url("amazonback.jpg");
+}
+.imagediv a:hover {
+    text-decoration: underline;
+}
+
+.msgdiv{
+
+    background-color: white;
+    height: 30px;
+    /* display: flex; */
+    justify-content:center;
+    text-align:center; 
+    font-size: small;
+    top:210px;
+    position: relative;
+    width: 850px;
+    left: 300px;
+
+    
+}
+
+.msgdiv p{
+position: relative;
+top: 6px;
+
+}
+.msgdiv a{
+    text-decoration: none;
+}
+/* CONTENT-PART  */
+.shopsection{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(198, 233, 198);
+}
+
+.box{
+    height: 400px;
+    width: 23.8%;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding:20px 0px 30px;
+    margin-bottom: 20px;
+
+    
+}
+
+.boxcontent p a{
+    padding-top: 10px;
+    color: rgb(25, 212, 25);
+    text-decoration: none;
+}
+.boxcontent p span a:hover{
+    color: blue
+}
+
+
+
+.boxcontent{
+
+    height: 380px;
+    margin-left: 25px;
+    margin-right:25px;
+
+}
+
+
+.boximage{
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    
+}
+.boximage:hover{
+    
+    background-size:cover;
+    height: 353px;
+    width: 100.7%;
+    transition-property: all;
+    transition:ease-in;
+    transition-duration: 0.10s;   
+}
+.boximage img{
+    height: 100%;
+    width: 100%;
+}
+.img1{
+    height: 100%;
+    width: 100%;
+}
+
+.img2{
+    height: 100%;
+    width: 100%;
+}
+
+.img3{
+    height: 100%;
+    width: 100%;
+}
+
+.img4{
+    height: 100%;
+    width: 100%;
+}
+
+.img5{
+    height: 100%;
+    width: 100%;
+}
+
+.img6{
+    height: 100%;
+    width: 100%;
+}
+
+.img7{
+    height: 100%;
+    width: 100%;
+}
+
+.img8{
+    height: 100%;
+    width: 100%;
+}
+
+.img9{
+    height: 100%;
+    width: 100%;
+   
+}
+
+
+.img:hover{
+    height:100.3%;
+    width: 100.3%;
+    transition-property: all;
+    transition:ease-in;
+    transition-duration: 0.06s;
+}
+/* HEADER-PART OVER */
+
+/* FOOTER-PART */
+
+.back-to-top{
+    height: 35px;
+    font-size: small;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(47, 63, 71);
+    text-align: center;
+  
+}
+
+.back-to-top a{
+   position: relative;
+   top:25%;
+}
+
+.footerdiv{
+
+    height: 330px;
+    background-color: rgb(35, 47, 62);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    
+    
+}
+.footerdiv .ulbox {
+    position: relative;
+    top:50px;
+    display:flex;
+    display: block;
+    line-height: 25px;
+    font-weight:10px;
+    font-size: small;
+    
+    
+}
+.footerdiv .ulbox a{
+    color:white;
+    text-decoration:none;   
+}
+.ulbox li{
+    list-style-type: none;
+}
+
+.ulbox li:hover{
+    text-decoration: underline;
+}
+
+/* FOOTER-PART OVER */
